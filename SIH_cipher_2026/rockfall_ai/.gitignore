@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments and local configuration
+.venv/
+venv/
+env/
+.env
+.env.*
+*.log
+
+# Jupyter and editor settings
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Raw/local datasets (retain the directory placeholder)
+data/*
+!data/.gitkeep
+
+# Generated models and training outputs (retain directory placeholders)
+models/*
+!models/.gitkeep
+!models/best_model.pkl
+!models/preprocessing_pipeline.pkl
+
+catboost_info/
+outputs/*
+!outputs/plots/
+outputs/plots/*
+!outputs/plots/.gitkeep
+reports/*
+!reports/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
